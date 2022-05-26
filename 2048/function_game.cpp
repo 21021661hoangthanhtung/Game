@@ -112,7 +112,7 @@ void Game::event_input()
                 break;
 
                   case SDLK_f:
-                     ptr_Sound -> mus();
+                      ptr_Sound -> mus();
                     break;
 
            // case SDLK_ESCAPE:
