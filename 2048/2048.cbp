@@ -41,17 +41,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-std=gnu++11" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL2.0/include/SDL2" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL_img/include/SDL2" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL_mixer/include/SDL2" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL_ttf/include/SDL2" />
+			<Add directory="D:/Hoàng Thanh Tùng/SDL_2.0/include/SDL2" />
+			<Add directory="D:/Hoàng Thanh Tùng/img_SDL/include/SDL2" />
+			<Add directory="D:/Hoàng Thanh Tùng/mixer_SDL/include/SDL2" />
+			<Add directory="D:/Hoàng Thanh Tùng/ttf_SDL/include/SDL2" />
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL2.0/lib" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL_img/lib" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL_mixer/lib" />
-			<Add directory="D:/hoàng thanh tùng/2048/SDL_ttf/lib" />
+			<Add directory="D:/Hoàng Thanh Tùng/SDL_2.0/lib" />
+			<Add directory="D:/Hoàng Thanh Tùng/img_SDL/lib" />
+			<Add directory="D:/Hoàng Thanh Tùng/mixer_SDL/lib" />
+			<Add directory="D:/Hoàng Thanh Tùng/ttf_SDL/lib" />
 		</Linker>
 		<Unit filename="Sound.cpp" />
 		<Unit filename="base_value.cpp" />

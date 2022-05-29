@@ -33,7 +33,7 @@ void sound :: mus()
 void sound::Motion()
 {
      int au = Mix_OpenAudio(44100,MIX_DEFAULT_FORMAT, 2, 1024);
-     Mix_Chunk *motion = Mix_LoadWAV("audio/sound_motion.wav");
+     Mix_Chunk *motion = Mix_LoadWAV("audio/sound_move.wav");
      Mix_PlayChannel(-1,motion,0);
 
 }
