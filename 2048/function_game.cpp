@@ -114,7 +114,6 @@ void Game::event_input()
                   case SDLK_f:
                       ptr_Sound -> mus();
                     break;
-
            // case SDLK_ESCAPE:
                 //quit = true;
                 //break;

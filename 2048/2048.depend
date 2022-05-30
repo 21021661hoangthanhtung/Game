@@ -2269,7 +2269,7 @@
 	<SDl_image.h>
 	<SDL_mixer.h>
 
-1653547113 source:d:\hoàng thanh tùng\2048\draw.cpp
+1653885764 source:d:\hoàng thanh tùng\2048\draw.cpp
 	"draw.h"
 	"function_game.h"
 	"sound.h"
@@ -2283,13 +2283,13 @@
 1653542202 d:\hoàng thanh tùng\2048\sound.h
 	<SDL_mixer.h>
 
-1653542533 source:d:\hoàng thanh tùng\2048\main.cpp
+1653885113 source:d:\hoàng thanh tùng\2048\main.cpp
 	"function_game.h"
 	"draw.h"
 	"base_value.h"
 	"sound.h"
 
-1653542474 source:d:\hoàng thanh tùng\2048\sound.cpp
+1653835665 source:d:\hoàng thanh tùng\2048\sound.cpp
 	"sound.h"
 	"base_value.h"
 
@@ -2682,7 +2682,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1653560974 source:d:\hoàng thanh tùng\2048\function_game.cpp
+1653884546 source:d:\hoàng thanh tùng\2048\function_game.cpp
 	"base_value.h"
 	"function_game.h"
 	"draw.h"

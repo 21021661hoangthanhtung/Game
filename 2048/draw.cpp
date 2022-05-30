@@ -148,7 +148,7 @@ void Draw::draw_grid(){
             break;
     }
 
-	int _Step = d + size_tile;
+    int _Step = d + size_tile;
 
 	for (int i = 0; i < size_card; i++)
 	{
@@ -874,7 +874,7 @@ void Draw::menu_tab()
      SDL_RenderFillRect(renderer,& on_music);
 
       draw_label("fonts.ttf", 11, color_text , "press G Off_music", renderer,off_music);
-      draw_label("fonts.ttf", 11, color_text , "press Ggain On_music", renderer,on_music);
+      draw_label("fonts.ttf", 11, color_text , "press G again On_music", renderer,on_music);
     SDL_SetRenderDrawColor(renderer,187, 173, 160, 255);
     _new_game= {70,300,370,70};
     mode = {70,390,370,70};
@@ -929,7 +929,7 @@ void Draw::game_over()
 	draw_label("fonts.ttf", 50, color_text , "TRY AGAIN", renderer,_new_game);
 
 	draw_label("fonts.ttf", 50, color_text , "MODE", renderer, mode);
-//    draw_label("fonts.ttf", 50, color_text , "MENU", renderer, menu);
+
 	draw_label("fonts.ttf", 50, color_text , "EXIT", renderer, exit);
 
 	SDL_RenderPresent(renderer);
